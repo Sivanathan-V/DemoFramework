@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.demo.mobile.rerun.FailedAll"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="com.demo.mobile.executables.Executable"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
